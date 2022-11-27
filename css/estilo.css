@@ -1,0 +1,450 @@
+* {
+  box-sizing: border-box;
+  font-family: Calibri;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  white-space: nowrap;
+}
+
+body {
+  margin: 0;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 90px;
+  background-color: #253237;
+  overflow: hidden;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: -2px;
+  margin-top: 12px;
+}
+
+.top a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: double;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 90px;
+  height: 70px;
+}
+
+.top a:hover {
+  background-color: #c8a2c8;
+  color: black;
+}
+
+.top a.active {
+  background-color: #6666ff;
+  color: black;
+}
+
+.main {
+  overflow: hidden;
+  display: flex;
+  height: 640px;
+  width: 100%;
+  background-color: #253237;
+}
+
+.sobremim {
+  display: flex;
+}
+.jfimg {
+  margin-top: 5rem;
+  width: auto;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.balao {
+  display: flex;
+  background: #cccccc;
+  padding: 15px;
+  position: relative;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  height: 420px;
+  width: 50%;
+}
+
+.balao:before {
+  display: flex;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  background: #cccccc;
+  -webkit-transform: rotate(45deg);
+}
+
+.balao h2 {
+  display: flex;
+  width: auto;
+  margin-left: 2rem;
+}
+
+.balao .textoPost {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  white-space: normal;
+  width: 100%;
+  text-align: justify;
+}
+
+.tecnologiaUltilizadas {
+  display: flex;
+  height: auto;
+  width: 400px;
+  background-color: #dab6da;
+  margin-left: 40%;
+  margin-top: 47%;
+}
+
+.card {
+  height: auto;
+  width: auto;
+}
+
+.logoGit {
+  display: flex;
+  margin-right: 12rem;
+  width: 250px;
+  height: 100px;
+}
+
+.row {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.card {
+  flex: 2 2;
+  /* A borda do card fica redonda*/
+  /*box-shadow: 7px 7px 13px 0px rgba(160, 255, 250, 0.466);*/
+  /* Tamanho da sombra do card fica redonda*/
+  padding: 100px;
+  /*Distancia do conteudo dentro dos cards*/
+  margin: 7px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #d2d4c8;
+  width: auto;
+  height: 277px;
+  border-radius: 8px;
+}
+
+.Back,
+.Front,
+.Ide,
+.bd,
+.sp {
+  display: flex;
+}
+.card p {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .imgCard {
+  display: flex;
+  height: 250px;
+  width: 250px;
+}
+.gitLogo {
+  display: flex;
+  margin-right: 3%;
+  height: 100px;
+  width: 150px;
+}
+.link {
+  display: flex;
+  margin-left: 1%;
+  height: 100px;
+  width: 100px;
+}
+
+.logos {
+  display: flex;
+  margin-top: 37%;
+  transform: translateY(-70%);
+}
+
+.mainn {
+  display: flex;
+  overflow: hidden;
+  display: flex;
+  height: 640px;
+  width: 100%;
+  background-color: #253237;
+}
+
+.formsContato {
+  display: flex;
+  margin-top: -1rem;
+  margin-left: 62%;
+  width: 600px;
+  height: 370px;
+  background-color: #c8b8db;
+  border-radius: 2%;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-right: 17rem;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#titleForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c8b8db;
+  border-radius: 10px;
+  width: 255px;
+  height: 45px;
+  margin-left: 92%;
+  margin-top: 3rem;
+}
+
+.btn {
+  padding: 10px;
+  width: 40%;
+  margin-left: 65%;
+  margin-top: 1rem;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, #253237, #6666ff);
+  cursor: pointer;
+}
+
+.msg {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/**********************SOBRE*********************/
+
+.mainSobre {
+  overflow: hidden;
+  display: flex;
+  height: 1300px;
+  width: 100%;
+  background-color: #253237;
+}
+
+.jfSobre {
+  margin-top: 1rem;
+  margin-left: 37rem;
+  width: auto;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.balaoSobre {
+  display: flex;
+  background: #cccccc;
+  padding: 15px;
+  position: relative;
+  margin-top: -rem;
+  margin-left: 15rem;
+  border-radius: 5px;
+  height: auto;
+  width: 68%;
+}
+
+.balaoSobre .textoPost {
+  display: flex;
+  margin-top: 2rem;
+  font-size: 18px;
+  justify-content: center;
+  white-space: normal;
+  width: 100%;
+  text-align: justify;
+}
+
+.balaoSobre .jfAranha {
+  margin-top: 1rem;
+  margin-left: 20rem;
+  width: auto;
+  height: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+  .top a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: double;
+    font-size: 14px;
+    line-height: 25px;
+    border-radius: 5px;
+  }
+  .main {
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  .logo {
+    margin-left: 3%;
+    margin-top: 8%;
+    width: 60px;
+    height: 40px;
+  }
+  .sobremim {
+    flex-wrap: wrap;
+  }
+
+  .balao {
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 200px;
+    height: auto;
+  }
+
+  .jfimg {
+    display: flex;
+    margin-top: 4%;
+    width: auto;
+    height: 140px;
+  }
+
+  .balao .textoPost {
+    justify-content: first baseline;
+    white-space: normal;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .balao:before {
+    display: flex;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -10px;
+    background: #cccccc;
+    -webkit-transform: rotate(45deg);
+  }
+  .link {
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
+
+  .gitLogo {
+    display: flex;
+    height: 50px;
+    width: 75px;
+  }
+
+  .mainn {
+    height: 807px;
+  }
+
+  .formsContato {
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-left: 9%;
+  }
+  #titleForm {
+    display: flex;
+    width: 245px;
+    height: 45px;
+    margin-left: 22%;
+    margin-top: 3rem;
+  }
+
+  #titleForm h2 {
+    font-size: 20px;
+  }
+  .btn {
+    width: 20%;
+    margin-left: 40%;
+  }
+  .inputs {
+    width: 65%;
+    margin-left: 18%;
+  }
+  .msg {
+    display: flex;
+    width: 200px;
+    margin-left: 22%;
+  }
+  /***Curiosidades***/
+
+  .mainSobre {
+    height: auto;
+    padding: 2rem;
+  }
+
+  .balaoSobre {
+    margin-top: 4%;
+    margin-left: 2%;
+    width: auto;
+    height: auto;
+  }
+
+  .balaoSobre .textoPost {
+    display: flex;
+    white-space: normal;
+    width: 100%;
+    text-align: justify;
+    font-size: 13px;
+  }
+
+  .balaoSobre .jfAranha {
+    margin-top: 1rem;
+    margin-left: 4rem;
+    width: 140px;
+    height: 140px;
+  }
+
+  .jfSobre {
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: auto;
+    height: 140px;
+    border-radius: 50%;
+  }
+}
