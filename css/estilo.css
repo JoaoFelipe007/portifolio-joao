@@ -313,9 +313,9 @@ body {
     float: left;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 12px;
+    padding: 8px;
     text-decoration: double;
-    font-size: 14px;
+    font-size: 8px;
     line-height: 25px;
     border-radius: 5px;
   }
